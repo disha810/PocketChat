@@ -1,0 +1,554 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 110;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		759BFCCA307BB29C00E23891 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 759BFCB4307BB29C00E23891 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 759BFCBB307BB29C00E23891;
+			remoteInfo = PocketChat;
+		};
+		759BFCD4307BB29C00E23891 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 759BFCB4307BB29C00E23891 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 759BFCBB307BB29C00E23891;
+			remoteInfo = PocketChat;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		759BFCBC307BB29C00E23891 /* PocketChat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PocketChat.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		759BFCC9307BB29C00E23891 /* PocketChatTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PocketChatTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		759BFCD3307BB29C00E23891 /* PocketChatUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PocketChatUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		759BFCBE307BB29C00E23891 /* PocketChat */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = PocketChat;
+			sourceTree = "<group>";
+		};
+		759BFCCC307BB29C00E23891 /* PocketChatTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = PocketChatTests;
+			sourceTree = "<group>";
+		};
+		759BFCD6307BB29C00E23891 /* PocketChatUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = PocketChatUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		759BFCB9307BB29C00E23891 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			files = (
+			);
+		};
+		759BFCC6307BB29C00E23891 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			files = (
+			);
+		};
+		759BFCD0307BB29C00E23891 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			files = (
+			);
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		759BFCB3307BB29C00E23891 = {
+			isa = PBXGroup;
+			children = (
+				759BFCBE307BB29C00E23891 /* PocketChat */,
+				759BFCCC307BB29C00E23891 /* PocketChatTests */,
+				759BFCD6307BB29C00E23891 /* PocketChatUITests */,
+				759BFCBD307BB29C00E23891 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		759BFCBD307BB29C00E23891 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				759BFCBC307BB29C00E23891 /* PocketChat.app */,
+				759BFCC9307BB29C00E23891 /* PocketChatTests.xctest */,
+				759BFCD3307BB29C00E23891 /* PocketChatUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		759BFCBB307BB29C00E23891 /* PocketChat */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 759BFCDB307BB29C00E23891 /* Build configuration list for PBXNativeTarget "PocketChat" */;
+			buildPhases = (
+				759BFCB8307BB29C00E23891 /* Sources */,
+				759BFCB9307BB29C00E23891 /* Frameworks */,
+				759BFCBA307BB29C00E23891 /* Resources */,
+			);
+			buildRules = (
+			);
+			fileSystemSynchronizedGroups = (
+				759BFCBE307BB29C00E23891 /* PocketChat */,
+			);
+			name = PocketChat;
+			productName = PocketChat;
+			productReference = 759BFCBC307BB29C00E23891 /* PocketChat.app */;
+			productType = "com.apple.product-type.application";
+		};
+		759BFCC8307BB29C00E23891 /* PocketChatTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 759BFCDE307BB29C00E23891 /* Build configuration list for PBXNativeTarget "PocketChatTests" */;
+			buildPhases = (
+				759BFCC5307BB29C00E23891 /* Sources */,
+				759BFCC6307BB29C00E23891 /* Frameworks */,
+				759BFCC7307BB29C00E23891 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				759BFCCB307BB29C00E23891 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				759BFCCC307BB29C00E23891 /* PocketChatTests */,
+			);
+			name = PocketChatTests;
+			productName = PocketChatTests;
+			productReference = 759BFCC9307BB29C00E23891 /* PocketChatTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		759BFCD2307BB29C00E23891 /* PocketChatUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 759BFCE1307BB29C00E23891 /* Build configuration list for PBXNativeTarget "PocketChatUITests" */;
+			buildPhases = (
+				759BFCCF307BB29C00E23891 /* Sources */,
+				759BFCD0307BB29C00E23891 /* Frameworks */,
+				759BFCD1307BB29C00E23891 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				759BFCD5307BB29C00E23891 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				759BFCD6307BB29C00E23891 /* PocketChatUITests */,
+			);
+			name = PocketChatUITests;
+			productName = PocketChatUITests;
+			productReference = 759BFCD3307BB29C00E23891 /* PocketChatUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		759BFCB4307BB29C00E23891 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 2700;
+				LastUpgradeCheck = 2700;
+				TargetAttributes = {
+					759BFCBB307BB29C00E23891 = {
+						CreatedOnToolsVersion = 27.0;
+					};
+					759BFCC8307BB29C00E23891 = {
+						CreatedOnToolsVersion = 27.0;
+						TestTargetID = 759BFCBB307BB29C00E23891;
+					};
+					759BFCD2307BB29C00E23891 = {
+						CreatedOnToolsVersion = 27.0;
+						TestTargetID = 759BFCBB307BB29C00E23891;
+					};
+				};
+			};
+			buildConfigurationList = 759BFCB7307BB29C00E23891 /* Build configuration list for PBXProject "PocketChat" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 759BFCB3307BB29C00E23891;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 759BFCBD307BB29C00E23891 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				759BFCBB307BB29C00E23891 /* PocketChat */,
+				759BFCC8307BB29C00E23891 /* PocketChatTests */,
+				759BFCD2307BB29C00E23891 /* PocketChatUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		759BFCBA307BB29C00E23891 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			files = (
+			);
+		};
+		759BFCC7307BB29C00E23891 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			files = (
+			);
+		};
+		759BFCD1307BB29C00E23891 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			files = (
+			);
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		759BFCB8307BB29C00E23891 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			files = (
+			);
+		};
+		759BFCC5307BB29C00E23891 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			files = (
+			);
+		};
+		759BFCCF307BB29C00E23891 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			files = (
+			);
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		759BFCCB307BB29C00E23891 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 759BFCBB307BB29C00E23891 /* PocketChat */;
+			targetProxy = 759BFCCA307BB29C00E23891 /* PBXContainerItemProxy */;
+		};
+		759BFCD5307BB29C00E23891 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 759BFCBB307BB29C00E23891 /* PocketChat */;
+			targetProxy = 759BFCD4307BB29C00E23891 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		759BFCD9307BB29C00E23891 /* Debug configuration for PBXProject "PocketChat" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = 64455WM3DJ;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 27.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		759BFCDA307BB29C00E23891 /* Release configuration for PBXProject "PocketChat" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = 64455WM3DJ;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 27.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		759BFCDC307BB29C00E23891 /* Debug configuration for PBXNativeTarget "PocketChat" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 64455WM3DJ;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.divysha.PocketChat;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		759BFCDD307BB29C00E23891 /* Release configuration for PBXNativeTarget "PocketChat" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 64455WM3DJ;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.divysha.PocketChat;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		759BFCDF307BB29C00E23891 /* Debug configuration for PBXNativeTarget "PocketChatTests" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 64455WM3DJ;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 27.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.divysha.PocketChatTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PocketChat.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/PocketChat";
+			};
+			name = Debug;
+		};
+		759BFCE0307BB29C00E23891 /* Release configuration for PBXNativeTarget "PocketChatTests" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 64455WM3DJ;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 27.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.divysha.PocketChatTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PocketChat.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/PocketChat";
+			};
+			name = Release;
+		};
+		759BFCE2307BB29C00E23891 /* Debug configuration for PBXNativeTarget "PocketChatUITests" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 64455WM3DJ;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.divysha.PocketChatUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PocketChat;
+			};
+			name = Debug;
+		};
+		759BFCE3307BB29C00E23891 /* Release configuration for PBXNativeTarget "PocketChatUITests" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 64455WM3DJ;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.divysha.PocketChatUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PocketChat;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		759BFCB7307BB29C00E23891 /* Build configuration list for PBXProject "PocketChat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				759BFCD9307BB29C00E23891 /* Debug configuration for PBXProject "PocketChat" */,
+				759BFCDA307BB29C00E23891 /* Release configuration for PBXProject "PocketChat" */,
+			);
+			defaultConfigurationName = Release;
+		};
+		759BFCDB307BB29C00E23891 /* Build configuration list for PBXNativeTarget "PocketChat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				759BFCDC307BB29C00E23891 /* Debug configuration for PBXNativeTarget "PocketChat" */,
+				759BFCDD307BB29C00E23891 /* Release configuration for PBXNativeTarget "PocketChat" */,
+			);
+			defaultConfigurationName = Release;
+		};
+		759BFCDE307BB29C00E23891 /* Build configuration list for PBXNativeTarget "PocketChatTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				759BFCDF307BB29C00E23891 /* Debug configuration for PBXNativeTarget "PocketChatTests" */,
+				759BFCE0307BB29C00E23891 /* Release configuration for PBXNativeTarget "PocketChatTests" */,
+			);
+			defaultConfigurationName = Release;
+		};
+		759BFCE1307BB29C00E23891 /* Build configuration list for PBXNativeTarget "PocketChatUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				759BFCE2307BB29C00E23891 /* Debug configuration for PBXNativeTarget "PocketChatUITests" */,
+				759BFCE3307BB29C00E23891 /* Release configuration for PBXNativeTarget "PocketChatUITests" */,
+			);
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 759BFCB4307BB29C00E23891 /* Project object */;
+	validationLevel = 1;
+}
